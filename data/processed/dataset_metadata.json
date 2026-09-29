@@ -1,0 +1,27 @@
+{
+    "dataset_name": "Palmer Penguins (penguins_size)",
+    "target": "species",
+    "classes": [
+        "Adelie",
+        "Chinstrap",
+        "Gentoo"
+    ],
+    "train_shape": [
+        275,
+        9
+    ],
+    "test_shape": [
+        69,
+        9
+    ],
+    "numerical_features": [
+        "culmen_length_mm",
+        "culmen_depth_mm",
+        "flipper_length_mm",
+        "body_mass_g"
+    ],
+    "categorical_features": [
+        "island",
+        "sex"
+    ]
+}
